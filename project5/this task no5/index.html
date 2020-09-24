@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="description"content="Html For Beginners">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
+ 
+	<title>Task no5</title>
+    
+    
+	<style>
+    
+    
+body {padding: 0px;margin: 0px;font-family: tahoma; }
+.top{background-color: #3b3939;margin: 0px;height: 58px; 
+    
+  position: fixed;width: 100%;z-index: 1;
+}
+.home {color: white;padding: 10px;text-decoration: none; background-color: #6bd99a;position: absolute;top:8px;left: 5px}
+.insta {text-decoration: none; position: absolute;top:20px;left: 860px;color: white;
+padding: 5px;
+
+}
+.apple {text-decoration: none; position: absolute;top:20px;left: 895px;color: white;
+padding: 5px;
+
+}
+.twitter {text-decoration: none; position: absolute;top:20px;left: 930px;color: white;padding: 5px;}
+
+
+.face {text-decoration: none;position: absolute;top:20px;left: 965px;color: aliceblue;
+padding: 5px;
+
+}
+
+.insta:hover{background-color: #676565;padding: 5px;}
+.apple:hover{background-color: #676565;padding: 5px;}
+.twitter:hover{background-color: #676565;padding: 5px;}
+.face:hover{background-color: #676565;padding: 5px;}
+
+
+
+
+
+
+
+.sticky {position: absolute;left: 40px;right: 0px}
+dt {background-color: black;color: white;padding: 8px;position: sticky;top:0px;left:0px;margin: 1em 0;}
+dd {padding-bottom: 5px}
+
+
+.one {background-color: green;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: fixed;top:57px; left: -60px;cursor: pointer;}
+
+.two {background-color: #3791eb;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: fixed;top: 99px; left: -60px;cursor: pointer;}
+
+.three{background-color: #c3142f;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: fixed;top: 140px; left: -60px;cursor: pointer}
+
+.four{background-color: #5d5c5c;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: fixed;left: -60px;;top: 181px;cursor: pointer;}
+
+.one:hover {position: fixed;left: -1px; transition-duration: .5s;}
+.two:hover {position: fixed;left: -1px; transition-duration: .5s;}
+.three:hover {position: fixed;left: -1px; transition-duration: .5s;}
+.four:hover {position: fixed;left: -1px; transition-duration: .5s;}
+
+.img{ background-image: url(99.jpg);position: absolute;top: 980px;background-repeat: no-repeat;width: 1000px;height: 500px;background-size: cover}
+
+.img2 {background-color: #625f5f;margin: 60px;padding: 20px 10px 30px 12px;font-size: 12px;line-height: 28px;max-height: 7px;overflow: hidden;cursor: pointer;}
+
+.img2:hover{min-height:40px ;transition-duration: .5s;overflow: visible}
+
+.img:hover:after{content: "This is Div contained hover";padding: 30px 10px 30px 30px;margin: 60px 50px 10px 30px;transition-duration: .2s;background-color: rgba(255, 0, 0, 0.42); width: 900px;height: 40px;position: absolute;top: 150px;cursor: pointer}
+
+.parent {background-image: url(%D9%83.jpg);position: absolute;top: 1520px;background-repeat: no-repeat;width: 1000px;height: 600px;background-size: cover;}
+
+.child {background-color:rgba(255, 0, 0, 0.42); margin: 46px 40px 30px 40px;padding: 20px 10px 30px 12px;font-size: 15px;}
+
+.a {background-color: rgba(138, 43, 226, 0.69);padding: 15px 10px 15px 10px ;margin: 40px 3px 10px 3px}
+.b{background-color: rgba(0, 128, 0, 0.63);padding: 15px 5px 15px 10px ;margin: 10px 3px 10px 3px;}
+
+.c{background-color: rgba(0, 128, 0, 0.63);padding: 15px 10px 15px 10px ;margin: 10px 3px 10px 3px;}
+
+.d{background-color: rgba(0, 128, 0, 0.63);padding: 15px 10px 15px 10px ;margin: 10px 3px 10px 3px;}
+
+.e{background-color: rgba(0, 128, 0, 0.63);padding: 15px 10px 15px 10px ;margin: 10px 3px 10px 3px;}
+
+.f{background-color: rgba(0, 128, 0, 0.63);padding: 15px 10px 15px 10px ;margin: 10px 3px 0px 3px;}
+
+.child p:hover~p{background-color: darkgray;transition-duration: 1.2s}
+
+.last { background-image: url(00.jpg);position: absolute;top: 2140px;background-repeat: no-repeat;width: 1000px;height: 280px;background-size: cover;  }
+.esraa{  background-color:rgba(18, 95, 71, 0.62); margin: 44px 20px 30px 20px;padding: 20px 10px 30px 12px;font-size: 12px; text-transform: capitalize;line-height: 35px;  }
+.esraa:first-letter {
+    border-radius: 23px;background-color: rgb(240, 54, 162);font-size: 30px;padding: 5px
+    
+}
+
+.esraa:first-line {background-color: #8d8d8d}
+    
+    
+    
+    </style>
+
+    </head>
+	<body>
+
+                    <!-- first div with icons and links-->
+        
+  <div class="top">
+  <a class="home" href="#" target="_self">Home</a>
+     <a class="insta"href="https://www.instagram.com/" target="_blank">  <i class="fab fa-instagram"></i>  </a> 
+      <a class="apple" href="https://www.apple.com/eg-ar/" target="_blank"><i class="fab fa-apple"></i></a>
+      <a class="twitter" href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter"></i> </a>
+      
+<a class="face" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" ></i></a>
+      
+      
+      
+        </div> 
+        
+        
+        
+      
+       <!--  div with sticky -->
+      
+        <div class="sticky">
+        <h2 class="h1">Sticky position</h2>
+            <d1>
+            <dt>A</dt>
+            <dd>Apple</dd>
+             <dd>Ant</dd>
+             <dd>Altimeter</dd>
+             <dd>Airplane</dd>
+             <dt>B</dt>
+                <dd>Birad</dd>
+             <dd>Buzzard</dd>
+             <dd>Bee</dd>
+             <dd>Banana</dd>
+            <dd>Beanstalk</dd>
+            
+            <dt>C</dt>
+                <dd>Calculator</dd>
+             <dd>Cane</dd>
+             <dd>Camera</dd>
+             <dd>Camel</dd>
+          
+             
+            <dt>D</dt>
+                <dd>Duck</dd>
+             <dd>Dime</dd>
+             <dd>Dipstick</dd>
+             <dd>Drone</dd>
+                
+                 <dt>E</dt>
+                <dd>Egg</dd>
+             <dd>Elephant</dd>
+             <dd>Egret</dd>
+    
+            </d1>
+        
+        </div>
+      
+      
+ 
+        <!-- div with image with paragraph -->
+        <div class="img">
+        
+        <div class="img2">I need to create an enterprise level activity monitor process in which the user should not be able to kill using the Task Manager or some other method. <br>Perhaps it should be a hidden process. Is this possible? Are there any workarounds?I prefer to use C# then c++ (with the Visual C++ compiler).</div>
+        
+        
+        </div>
+        
+       <!-- div with some of divs and colors -->
+        <div class="parent">
+        <div class="child">Direc Child From Parent
+            <p class="a">Grand Child</p>
+            <p class="b">Paragraph Brothe</p>
+            <p class="c">Paragraph Brothe</p>
+            <p class="d">Paragraph Brothe</p>
+            <p class="e">Paragraph Brothe</p>
+            <p class="f">Paragraph Brothe</p>
+            
+        
+             
+            </div>
+        
+        </div>
+        
+        <!-- div first line and first letter the last div in task-->
+        <div class="last">
+       <div class="esraa">
+            I need to create an enterprise level activity monitor process in which the user should not be able to kill using the task manager or some other method .perhaps it should be a hidden process.is this possible?are there any workarounds?i prefer to use c# then c++(with the visual c++ compiler)
+            
+            
+            </div>
+        
+        
+        </div>
+ 
+        
+        
+        
+        
+             <!-- other div with hover and transitions-->
+ 
+   
+        <div class="one">About</div>
+        <div class="two">Blog</div>
+        <div class="three">projects</div>
+        <div class="four">Contact</div>
+        
+        
+        
+        
+        
+        
+        
+             <script src="js/fontawesome.min.js"></script>
+             <script src="js/solid.min.js"></script>
+        <script src="js/brands.min.js"></script>
+    </body>
+    
+    
+    <!-- 
+    
+    
+body {padding: 0px;margin: 0px;font-family: tahoma; }
+.top{background-color: #3b3939;margin: 0px;height: 58px;}
+.home {color: rgba(255, 255, 255, 0.94);padding: 10px;text-decoration: none; background-color: #063806;position: absolute;top:8px;left: 5px}
+.face {text-decoration: none; background-color: #04b104;position: absolute;top:20px;left: 215px;color: aliceblue; }
+
+
+
+
+
+
+
+
+
+
+
+
+.sticky {position: absolute;left: 40px;right: 0px}
+dt {background-color: black;color: white;padding: 8px;position: sticky;top:0px;left:0px;margin: 1em 0;}
+dd {padding-bottom: 5px}
+
+
+.one {background-color: green;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: absolute; left: -60px;cursor: pointer;}
+
+.two {background-color: #3791eb;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: absolute;top: 99px; left: -60px;cursor: pointer;}
+
+.three{background-color: #c3142f;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: absolute;top: 140px; left: -60px;cursor: pointer}
+
+.four{background-color: #5d5c5c;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: absolute;left: -60px;;top: 181px;cursor: pointer;}
+
+.one:hover {position: absolute;left: -1px; transition-duration: .5s;}
+.two:hover {position: absolute;left: -1px; transition-duration: .5s;}
+.three:hover {position: absolute;left: -1px; transition-duration: .5s;}
+.four:hover {position: absolute;left: -1px; transition-duration: .5s;}
+
+.img{ background-image: url(99.jpg);position: absolute;top: 980px;background-repeat: no-repeat;width: 1000px;height: 500px;background-size: cover}
+
+.img2 {background-color: #625f5f;margin: 60px;padding: 20px 10px 30px 12px;font-size: 12px;line-height: 28px;max-height: 7px;overflow: hidden;cursor: pointer;}
+
+.img2:hover{min-height:40px ;transition-duration: .5s;overflow: visible}
+
+.img:hover:after{content: "This is Div contained hover";padding: 30px 10px 30px 30px;margin: 60px 50px 10px 30px;transition-duration: .2s;background-color: rgba(255, 0, 0, 0.42); width: 900px;height: 40px;position: absolute;top: 150px;cursor: pointer}
+
+.parent {background-image: url(%D9%83.jpg);position: absolute;top: 1620px;background-repeat: no-repeat;width: 1000px;height: 600px;background-size: cover;}
+
+.child {background-color:rgba(255, 0, 0, 0.42); margin: 46px 40px 30px 40px;padding: 20px 10px 30px 12px;font-size: 15px;}
+
+.a {background-color: rgba(138, 43, 226, 0.69);padding: 15px 10px 15px 10px ;margin: 40px 3px 10px 3px}
+.b{background-color: rgba(0, 128, 0, 0.63);padding: 15px 5px 15px 10px ;margin: 10px 3px 10px 3px;}
+
+.c{background-color: rgba(0, 128, 0, 0.63);padding: 15px 10px 15px 10px ;margin: 10px 3px 10px 3px;}
+
+.d{background-color: rgba(0, 128, 0, 0.63);padding: 15px 10px 15px 10px ;margin: 10px 3px 10px 3px;}
+
+.e{background-color: rgba(0, 128, 0, 0.63);padding: 15px 10px 15px 10px ;margin: 10px 3px 10px 3px;}
+
+.f{background-color: rgba(0, 128, 0, 0.63);padding: 15px 10px 15px 10px ;margin: 10px 3px 0px 3px;}
+
+.child p:hover~p{background-color: darkgray;transition-duration: 1.2s}
+
+.last { background-image: url(00.jpg);position: absolute;top: 2250px;background-repeat: no-repeat;width: 1000px;height: 280px;background-size: cover;  }
+.esraa{  background-color:rgba(18, 95, 71, 0.62); margin: 44px 20px 30px 20px;padding: 20px 10px 30px 12px;font-size: 12px; text-transform: capitalize;line-height: 35px;  }
+.esraa:first-letter {
+    border-radius: 23px;background-color: rgb(240, 54, 162);font-size: 30px;padding: 5px
+    
+}
+
+.esraa:first-line {background-color: #8d8d8d}
+    
+    
+    
+    
+    -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="description"content="Html For Beginners">
+    <link rel="stylesheet" href="task%20no7.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
+     <link rel="stylesheet" href="nnormalize.css">
+ 
+	<title>Task no7</title>
+    
+    
+	<style> </style>
+         
+   
+
+    </head>
+	<body>
+       <!-- first div which content main bar-->
+        <div class="head">
+               <!--bar with icons and links-->
+        
+  <div class="top">
+  <a class="home" href="#" target="_self">Home</a>
+      
+      <a class="masenger" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-messenger"></i> </a>
+     <a class="insta"href="https://www.instagram.com/" target="_blank">  <i class="fab fa-instagram"></i>  </a> 
+      <a class="apple" href="https://www.apple.com/eg-ar/" target="_blank"><i class="fab fa-apple"></i></a>
+      <a class="twitter" href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter"></i> </a>
+      
+<a class="face" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" ></i></a>
+      
+        </div> 
+        
+    <!-- div with time -->
+            <div class="time">
+            you logged in at <time datetime="25-10-2020">oct,25,2020</time>
+            
+            </div>
+            <!-- detalis -->
+            <details class="detalis">
+            <summary>Epcot center</summary>
+           <p class="summary"> Epoct is a theme park at walt <bdi>والت</bdi> world Resort featuring exciting attractions,international pavilions,award-wining fireworks and seasonaln special events.</p>
+            </details>
+            
+        </div>
+        
+        <!-- div with input form datalist -->
+        
+      <div class="datalist">
+        
+       <form>
+          <input list="browser">
+           <datalist id="browser">
+           <option value="Firefox"></option>
+           <option value="Chrome"></option>
+           <option value="Internet Explorer"></option>
+               <option value="Opera"></option>
+               <option value="Safari"></option>
+           </datalist>
+          
+          </form>
+        </div> 
+        <!-- div with progress and meter-->
+        <div class="progress">
+        <div class="meter">
+        <P>    your downloading is in handle <progress></progress></P>
+         <P>  now u r <progress value="4" max="10"></progress></P> 
+           <P>but now <meter min="0" max="1" value=".2" low=".5"></meter></P>
+              <P>then now <meter min="0" max="1" value=".8" low=".8"></meter></P>
+                 <P>and now <meter min="0" max="1" value=".9" high=".8"></meter></P>
+            </div>
+        
+        </div>
+        <!-- last div with copy right -->
+        <div class="copyright">
+        
+        <center> 
+    <p style="font-size: 20px;color: black; position: absolute;top: 50px; left: 310px"> copyrights&copy;for compiler team 2020 </p>    
+        
+        
+        </center>
+        
+        </div>
+        
+        <!-- other div with hover and transitions-->
+ 
+        <div class="one">About</div>
+        <div class="two">Blog</div>
+        <div class="three">projects</div>
+        <div class="four">Contact</div>
+        
+        
+       
+            <script src="js/fontawesome.min.js"></script>
+             <script src="js/solid.min.js"></script>
+        <script src="js/brands.min.js"></script> 
+    </body>
+</html>
+
+
+<!-- 
+
+body {padding: 0px;margin: 0px}
+
+.head{background-image: url(sun.jpg);
+background-repeat: no-repeat;width: 1007px;height: 380px;background-size: cover;}
+
+.top{background-color: #454242;margin: 0px;height: 57px; 
+    
+  position: fixed;width: 100%;z-index: 1;}
+
+.home {color: white;padding: 10px;text-decoration: none; background-color: #6bd99a;position: absolute;top:8px;left: 5px}
+
+.masenger{text-decoration: none; position: absolute;top:15px;left: 836px;color: white;
+padding: 5px;}
+.insta {text-decoration: none; position: absolute;top:15px;left: 872px;color: white;
+padding: 5px;
+
+}
+.apple {text-decoration: none; position: absolute;top:15px;left: 907px;color: white;
+padding: 5px;
+
+}
+.twitter {text-decoration: none; position: absolute;top:15px;left: 942px;color: white;padding: 5px;}
+
+
+.face {text-decoration: none;position: absolute;top:15px;left: 977px;color: aliceblue;
+padding: 5px;
+
+}
+
+.masenger:hover{background-color: #676565;padding: 5px;}
+.insta:hover{background-color: #676565;padding: 5px;}
+.apple:hover{background-color: #676565;padding: 5px;}
+.twitter:hover{background-color: #676565;padding: 5px;}
+.face:hover{background-color: #676565;padding: 5px;}
+
+.one {background-color: green;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 8px; position: fixed;top:67px; left: -60px;cursor: pointer;}
+
+.two {background-color: #3791eb;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 6px; position: fixed;top: 109px; left: -60px;cursor: pointer;}
+
+.three{background-color: #c3142f;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 6px; position: fixed;top: 150px; left: -60px;cursor: pointer}
+
+.four{background-color: #5d5c5c;padding: 10px 10px 10px 6px;width: 67px; border-radius: 3px;color: white;margin-top: 6px; position: fixed;left: -60px;;top: 191px;cursor: pointer;}
+
+.one:hover {position: fixed;left: -1px; transition-duration: .5s;}
+.two:hover {position: fixed;left: -1px; transition-duration: .5s;}
+.three:hover {position: fixed;left: -1px; transition-duration: .5s;}
+.four:hover {position: fixed;left: -1px; transition-duration: .5s;}
+
+.time {font-family: tahoma;background-color: rgba(3, 65, 3, 0.57);position: absolute;top: 120px;left: 40px;width: 930px;height: 40px;padding: 20px 10px 10px 15px;color: aliceblue }
+
+.detalis{color: aliceblue;position: absolute;top: 200px;left: 40px;width: 950px;}
+.summary {padding-top: 10px}
+
+.datalist{background-image: url(gre.jpg);background-repeat: no-repeat;background-size: cover;
+    
+    ;position: absolute;top: 408px;width: 1007px;height: 190px;}
+
+input{background-color: rgba(82, 80, 80, 0.72);position: absolute;top: 40px;left: 29px;width: 900px;height: 40px;padding-left: 10px;}
+
+.progress{background-image: url(g.jpg);background-repeat: no-repeat;background-size: cover;
+    
+    ;position: absolute;top: 618px;width: 1007px;height: 350px;}
+
+.meter{ font-family: tahoma;background-color: rgba(65, 53, 3, 0.57);position: absolute;top: 70px;left: 40px;width: 900px;height: 200px;padding: 20px 10px 10px 25px;color: aliceblue  }
+.meter p{}
+
+.copyright{ background-image: url(vv.png);background-repeat: no-repeat;background-size: cover;
+    
+    ;position: absolute;top: 1000px;width: 1007px;height: 220px;}-->
+
