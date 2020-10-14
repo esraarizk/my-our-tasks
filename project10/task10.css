@@ -1,0 +1,406 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    perspective: 600px;
+}
+.top{
+    background-color: #d3cece;
+    margin: 0px;height: 47px; 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.home {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #4799e0;
+    position: absolute;
+    top:0px;
+    left: 1px;
+    height: 27px;
+    margin: 0px;
+    background-size: cover
+}
+.firstresize{
+    color: black;
+    padding: 14px 10px 10px 10px;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    height: 27px
+}
+.flip{
+    color: black;
+    text-decoration: none;
+    padding: 14px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    left: 157px;
+    height: 27px
+}
+.opacity{
+    color: black;
+    padding: 14px 10px 10px 10px;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    height: 27px
+}
+.multi{
+    color: black;
+    text-decoration: none;
+    padding: 14px 10px 10px 10px;
+    position: absolute;
+    top: 0px;
+    left: 335px;
+    height: 27px
+}
+.firstresize:hover{
+    background-color: darkgray;
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    height: 24px;
+    padding: 14px 10px 10px 10px;
+}
+.flip:hover{
+    background-color: darkgray;
+    position: absolute;
+    top: 0px;
+    left: 157px;
+    height: 24px;
+    padding: 14px 10px 10px 10px;
+}
+.opacity:hover{
+    background-color: darkgray;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    height: 24px;
+    padding: 14px 10px 10px 10px;
+}
+.multi:hover{
+    background-color: darkgray;
+    position: absolute;
+    top: 0px;
+    left: 335px;
+    height: 24px;
+    padding: 14px 10px 10px 10px;
+}
+.form{
+    position: absolute;
+    top: 10px;
+    left: 730px;
+}
+.search{
+    height: 30px;
+    cursor: pointer;
+}
+.search:active{
+    cursor: pointer;
+}
+.ssearch{
+    color: black;
+    background-color: #c7c6c6;
+    padding: 8px 5px 12px 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    left: 178px;
+    height: 10px;
+    width: 68px;
+}
+.one {
+    background-color: #3e62b2;
+    padding: 10px 10px 10px 6px;
+    width: 30px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 8px;
+    position: fixed;
+    top:67px;
+    left: -30px;
+    cursor: pointer;
+}
+
+.two {background-color: #489df2;
+    padding: 10px 10px 10px 6px;
+    width: 30px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 6px;
+    position: fixed;
+    top: 109px; 
+    left: -30px;
+    cursor: pointer;
+}
+
+.three{
+    background-color: #c1bfbf;
+    padding: 10px 10px 10px 6px;
+    width: 30px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 6px;
+    position: fixed;
+    top: 150px;
+    left: -30px;cursor: pointer
+}
+
+.one:hover {
+    position: fixed;
+    left: -1px;
+    transition-duration: .5s;
+}
+.two:hover {position: fixed;
+    left: -1px; 
+    transition-duration: .5s;
+}
+.three:hover {
+    position: fixed;
+    left: -1px;
+    transition-duration: .5s;
+}
+
+.first{
+    background-image: url(sun.jpg);
+    background-repeat: no-repeat;
+    width: 100%;height:510px;
+    background-size: cover;
+    text-align: center;display: block;
+}
+.rresize p{
+    margin: 5px 0px 10px 0px;
+    padding: 5px;
+    width: 900px;
+    position: absolute;
+    left: -33px;
+    text-shadow: 5px 5px 10px #ff0377;
+
+}
+
+
+
+
+.rresize{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    color: aliceblue;
+    background-color: rgba(123, 212, 34, 0.58);
+    width: 430px;
+    height: 30px;
+    box-shadow: 2px 2px 10px 8px rgba(62, 178, 111, 0.72),-2px -2px 10px 8px rgba(214, 132, 221, 0.74);
+    padding: 0px 0px 9px 0px;
+    overflow: hidden;
+    resize: horizontal;
+   
+}
+
+.flex-container {
+
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #d9b656;
+}
+
+.flex-container > div {
+  background-color: #fcfcfc;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.read{
+      position: absolute;
+    top: 200px;
+    left: 60px;
+  padding: 20px;
+  background: rgba(141, 163, 148, 0.5) ;
+  box-shadow: 5px 5px 20px 5px rgba(255, 0, 0, 0.5) ,
+              -5px -5px 30px 5px rgba(0, 0, 255, 0.5);
+  text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5) ,
+              -5px -5px 10px rgba(0, 0, 255, 0.5);       
+  resize: horizontal;
+  width: 400px;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;   
+}
+.second{
+    background-image: url(gre.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:480px;
+    background-size: cover;
+    text-align: center;
+    display: block;
+    margin-top: 20px
+}
+
+
+body{
+    perspective: 500px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 30%;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  display: inline-block;
+  font-size: 13px;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+.f{
+  background-color: rgba(255, 12, 22);
+}
+.s{
+  background-color: rgb(6, 6, 153);
+}
+.th{
+  background-color: rgba(10 , 10 , 10);
+  color: #ccc;
+}
+
+
+.opacit{
+    background-image: url(zzx.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:550px;
+    background-size: cover;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+    top: 1010px;
+    transition: 3s;
+   
+}
+
+.boy{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+   
+}
+
+.miky{
+    position: absolute;
+    top: 80px;
+    left: 730px;
+}
+
+.ball{
+    width: 60px;
+    position: absolute;
+    top: 270px;
+    left: 281px;
+    opacity: 0;
+    transition: 3.2s;
+}
+
+.kl{
+    width: 60px;
+    position: absolute;
+    top: 70px;
+    left: 630px;
+    opacity: 0;
+    transition: 3.2s;
+}
+
+.opacit:hover .ball{
+    opacity: 1;
+    transform:scale(2.3) translateX(150px);
+    transition-duration: 3.2s;
+    cursor: pointer;
+}
+
+
+.opacit:hover .kl{
+    opacity: 1;
+    transform:scale(-2.2) translateX(150px);
+    transition-duration: 3.2s;
+    cursor: pointer;
+}
+
+.last{
+    background-image: url(q.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:550px;
+    background-size: cover;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+    top: 1580px;
+    transition: 3s;
+   
+}
+.columnrule{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 380px;
+   
+    background-color: rgba(165, 42, 42, 0.62);
+    padding: 25px 25px 25px 25px;
+    text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5) ,
+              -5px -5px 10px rgba(0, 0, 255, 0.5);
+     box-shadow: 2px 2px 10px 8px rgba(62, 178, 111, 0.72),-2px -2px 10px 8px rgba(214, 132, 221, 0.74);
+    border: 1px solid #b55656;
+    column-count: auto;
+    column-gap: 80px;
+    column-rule: 4px solid white;
+    column-width:100px;
+    overflow: hidden;
+    resize: horizontal;
+    
+}
+.mark{
+    position: absolute;
+    top: 2200px;
+    color: aliceblue;
+}
