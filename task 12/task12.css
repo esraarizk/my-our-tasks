@@ -167,7 +167,8 @@ body {
 
 }
 .contact__form input,
-.contact__form textarea {
+.contact__form textarea
+{
     display: block;
     width: 75%;
     appearance: none;
@@ -175,12 +176,12 @@ body {
     border: 1px solid rgba(255,255,255,0.4);
     background-color: rgba(255,255,255,0.2);
     border-radius: 3px;
-    padding: 10px 15px;
+    padding: 20px 15px;
     margin: 0 auto 2.5rem auto;
     text-align: center;
     transition-duration: 0.25s;
     font-weight: 300;
-    resize: none;
+    
 }
 input::-webkit-input-placeholder {
     color:#fff !important;
