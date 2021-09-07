@@ -1,0 +1,170 @@
+body{
+  margin: 0;
+  padding: 0
+}
+
+.carousel-indicators{
+  margin-bottom: 10px;
+     border-radius: 50%;
+   
+}
+.carousel-indicators .bbn{
+  width:35px;
+ height: 7;
+}
+
+.carousel-indicators .active{
+  width: 40px;
+  height: 10px;
+  background-color: rgb(255 255 255 / 50%)
+}
+
+/****************************end carousel********************************************/
+/*****************************start *****************************************************/
+.secondpart{
+  background: #eee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+    align-items: center;
+     text-align: center;
+     justify-content: center;
+
+   
+}
+
+#cont-ainer{
+     align-items: center;
+     text-align: center;
+     justify-content: center; 
+   
+}
+
+
+figure{
+  border: 1px solid white;
+  border-radius: 50%;
+ /* width: 100px;
+  height: 100px; */
+   padding: 25px;
+   margin: 35px;
+align-items: center;
+     text-align: center;
+     justify-content: center;
+      align-items: center;
+     text-align: center;
+    
+
+}
+
+p{
+  font-family: serif;
+  font-size: 15px;
+      align-items: center;
+     text-align: center;
+     justify-content: center;
+    
+    
+}
+/*************************************************************************************/
+.last_part{
+        align-items: center;
+     text-align: center;
+     justify-content: center;
+}
+
+
+
+.selapa h1 span {
+  color: red;
+
+}
+.selapa{
+  padding-top: 30px;
+  padding-bottom: 60px;
+   align-items: center;
+     text-align: center;
+     justify-content: center; 
+      
+   
+    
+}
+#sendmassage{
+     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    margin-top: 0px;
+    border-radius: 6px;
+    width: 800px;
+    padding: 20px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     margin-left: 230px;
+    margin-bottom: 30px;
+    
+}
+
+
+#youurname{
+     margin-top: 30px;
+    margin-right: 10px;
+}
+
+#my-button{
+    margin-top: 20px;
+}
+
+.form-control{
+     display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.selapa .lead{
+ color:#888;
+ font-size: 20px
+}
+/****************/
+
+/******************************************************************************/
+footer{
+  background-color: #eee;
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+
+}
+.end{
+  margin-left: 170px
+}
+footer .bi{
+  border: 1px solid ;
+  border-radius: 50%
+}
+
+#icons{
+        font-size: 38px;
+    display: inline-block;
+   
+   
+    line-height: 1;
+    
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    cursor: pointer;
+}
